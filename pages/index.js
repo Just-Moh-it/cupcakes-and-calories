@@ -62,13 +62,6 @@ function App() {
 
   return (
     <>
-      <Total calories={calories} addItem={addItem} items={items} />
-    </>
-  );
-}
-
-function Total({ calories, addItem, items }) {
-  return (
     <div
       className={cn(
         "bg-gradient-to-b from-[#EDEDED] to-[#EBE9F2] flex items-center justify-center text-center py-[80px] mt-[13px] flex-col gap-10 px-[30px]"
@@ -99,6 +92,7 @@ function Total({ calories, addItem, items }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
